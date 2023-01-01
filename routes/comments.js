@@ -15,7 +15,7 @@ const Item = mongoose.model("Item", itemsSchema);
 
 
 router.get("/:id",function (req,res){
-  const title = req.query.title;
+  const title = req.body.title;
   const id= req.params.id;
 
 

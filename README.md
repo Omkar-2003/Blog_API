@@ -9,3 +9,8 @@ Key features:
 - Comment      on blog posts: Users will be able to leave comments on blog posts, which      will be displayed below the post.
 - User      profiles: Each user will have their own profile page, which will display      their blog posts and any comments they have left on other posts.
 - Likes:      Each user will have the ability to like and unlike a post
+
+Stepwise Guide :
+step 1 : Add required node modules like express , body-parser, mongoose , path , dotenv ,multer 
+step 2 : Follow Postman Documentation precisely
+ Postman Documentation link :- https://documenter.getpostman.com/view/21887155/2s8Z6zyriL

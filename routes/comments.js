@@ -42,7 +42,7 @@ router.get("/:id",function (req,res){
 
 
   router.get("/allcomment",function (req,res){
-    const title = req.query.title;
+    const title = req.body.title;
 
 try{
         Comment.findOne({title:title},function(err,founduser){
